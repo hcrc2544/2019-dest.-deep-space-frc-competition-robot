@@ -1,0 +1,66 @@
+(0)	[GUI]Enabled
+(80)	[GUI]Selected:
+(910)	[GUI]System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlTextReader.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at WeifenLuo.WinFormsUI.Docking.DockPanel.Persistor.LoadFromXml(DockPanel dockPanel, Stream stream, DeserializeDockContent deserializeContent, Boolean closeStream)
+   at WeifenLuo.WinFormsUI.Docking.DockPanel.LoadFromXml(Stream stream, DeserializeDockContent deserializeContent)
+   at CTRE_Phoenix_GUI_Dashboard.frmDashboard.()
+(2050)	[BackEnd]Entered State:Connecting
+(3120)	[BackEnd]Entered State:LostComm
+(3390)	[HTTP]System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetResponse()
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(3650)	[HTTP]System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetResponse()
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(3650)	[BackEnd]Entered State:LostComm
+(4180)	[HTTP]System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetResponse()
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(4180)	[BackEnd]Entered State:LostComm
+(4710)	[HTTP]System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetResponse()
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(4710)	[BackEnd]Entered State:LostComm
+(5240)	[HTTP]System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetResponse()
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(5240)	[BackEnd]Entered State:LostComm
+(5770)	[HTTP]System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetResponse()
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(5770)	[BackEnd]Entered State:LostComm
+(6300)	[HTTP]System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetResponse()
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(6300)	[BackEnd]Entered State:LostComm
+(6830)	[HTTP]System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetResponse()
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(6830)	[BackEnd]Entered State:LostComm
+(7200)	[GUI]Shutting Down Backend...
+(7200)	[BackEnd]Requesting Disposing State
+(7360)	[HTTP]System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetResponse()
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(7360)	[BackEnd]Entered State:LostComm
+(7360)	[BackEnd]Entered Disposing State
+(7360)	[BackEnd]Waiting for Disposed confirmation.
+(7370)	[BackEnd]Entered State:Disposed
+(7410)	[BackEnd]Disposed confirmation received
+(7410)	[BackEnd]Thread0 shutdown complete
+(7430)	[BackEnd]Thread1 shutdown complete
+(7440)	[BackEnd]Thread2 shutdown complete
